@@ -441,6 +441,14 @@ legend + * {
   height: auto;
 }
 
+.project-image {
+  width: 150px; /* Adjust to desired size */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures image doesn't stretch */
+  border-radius: 8px; /* Optional: Adds rounded corners to images */
+  margin-right: 20px; /* Adds space between image and text */
+}
+
 [type=search] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
